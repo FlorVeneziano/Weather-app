@@ -1,0 +1,42 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  border-radius: 10%;
+  background-color:rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.377);
+  backdrop-filter: blur(30px);
+  transition: all 0.5s;
+}
+.card:hover{
+  background-color:rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(30px);
+  border-radius: 0;
+  
+}
+.card-title {
+  margin-bottom: 15px;
+  text-decoration: none;
+  color:#637CA5;
+}
+.card-title:hover{
+  text-decoration: none;
+  color:#7092c8;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+ 
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+p {
+  font-weight: 600;
+  
+}
